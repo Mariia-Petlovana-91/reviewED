@@ -1,0 +1,8 @@
+.logo{
+	@include flexInline(inline-flex, center);
+}
+
+.logo__text{
+font-size: 24px;
+color: var(--secondDarkText);
+}
