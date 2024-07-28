@@ -20,6 +20,7 @@
 	@include flex(flex, center);
 	flex-direction: column;
 	justify-content: center;
+	
 }
 
 .main__reviwCntainer{
@@ -27,7 +28,7 @@
 }
 
 .main__textCntainer{
-	padding: 20px;
+	padding: 20px 200px 20px 20px;
 	background-color: var(--accentColor);
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
