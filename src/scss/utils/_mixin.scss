@@ -2,3 +2,10 @@
 	display: $df;
 	align-items: $ai;
 }
+
+@mixin font($fs, $fw, $col) {
+	font-size: $fs;
+	font-weight: $fw;
+	color: $col;
+    }
+    
