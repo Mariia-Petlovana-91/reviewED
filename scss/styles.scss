@@ -1,0 +1,14 @@
+//імпорт стилів із папки  BASE 
+@import './base/common';
+@import './base/variables';
+
+//імпорт стилів із папки  UTILS 
+@import './utils/visually-hidden';
+@import './utils/mixin';
+
+//імпорт стилів із папки  COMPONENTS
+@import './components/container';
+@import './components/logo';
+
+//імпорт стилів із папки  LOYOUT
+@import './loyout/head';
