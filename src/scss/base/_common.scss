@@ -18,7 +18,7 @@ body {
   font-family: 'DM Sans', sans-serif;
 }
 
-.list {
+li {
   list-style: none;
 }
 
@@ -26,7 +26,7 @@ a {
   text-decoration: none;
 }
 
-.btn {
+button {
   display: block;
   padding: 0;
   cursor: pointer;
@@ -40,3 +40,8 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+// svg {
+//   width: 24px;
+//   height: 24px;
+// }

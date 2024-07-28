@@ -1,4 +1,4 @@
-@mixin flexInline($df, $ai) {
+@mixin flex($df, $ai) {
 	display: $df;
 	align-items: $ai;
 }

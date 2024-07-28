@@ -1,5 +1,5 @@
 .logo{
-	@include flexInline(inline-flex, center);
+	@include flex(inline-flex, center);
 }
 
 .logo__text{

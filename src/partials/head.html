@@ -1,4 +1,4 @@
-<head> 
+<header> 
 
 	<div class="container">
 	    <div class="head__placementEl">
@@ -8,32 +8,33 @@
 		  </div>
 		  <div class="head__searchEl">
 		    <div class="head_inputEl">
-			<input type="search" name="query" value="" pattern="[A-Za-z0-9\s]+">
+			<input  class="head__input" type="search" name="query" placeholder="Search" value="" >
 			<button class="head__searchBtn" type="button" aria-label="Пошук">
-			    <svg>
-				<use href="./img/sprite.svg#icon-search"></use>
+			    <svg class="head__icon">
+				<use  href="./img/sprite.svg#icon-search"></use>
 			    </svg>
 			</button>
 		    </div>
-		    <button class="head__searchBtn" type="button" aria-label="Голосовий пошук">
-			<svg>
+		    <button class="head__searchBtn--voice " type="button" aria-label="Голосовий пошук" id="voiceSearchBtn">
+			<svg class="head__icon head__icon--voice">
 			    <use href="./img/sprite.svg#icon-render_your_voice"></use>
 			</svg>
 		    </button>
 		  </div>
 		  <div class="head__singInEl">
 		    <button class="head__moreBtn" type="button" aria-label="Більше опцій">
-			<svg>
-			    <use href="./img/sprite.svg#icon-see_more"></use>
+			<svg class="head__icon head__icon--more">
+			    <use href="./img/sprite.svg#icon-more_vertical"></use>
 			</svg>
 		    </button>
 		    <button class="head__singInBtn" type="button" aria-label="Увійти">
-			<svg>
+			<svg class="head__icon--singUp head__icon ">
 			    <use href="./img/sprite.svg#icon-people"></use>
 			</svg>
+			Вхід
 		    </button>
 		  </div>
 	    </div>
 	  </div>
 	  
-  </head>
+</header>

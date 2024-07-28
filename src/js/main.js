@@ -1,13 +1,16 @@
-import { greet } from '../components-js/part1.js';
-import { farewell } from '../components-js/part2.js';
-import '../scss/styles.scss'; // Імплементація стилів
-import '../components-js/part1.js';
-import '../components-js/part2.js';
-import '../components-js/test.js';
+// ІМПОРТ ФУНКЦІЙ У MEIN
+import { initVoiceSearch } from '../components-js/voiceSearch.js';
 
-// Виклик функцій з частин коду
-greet();
-farewell();
+// ПІДКЛЮЧАЄМО СТИЛІ
+import '../scss/styles.scss';
+
+// ПІДКЛЮЧАЄМО ФАЙЛИ JS
+import '../components-js/voiceSearch.js';
+
+// ВИКЛИК ФУНКЦІЙ З ФАЙЛІВ
+document.addEventListener('DOMContentLoaded', (event) => {
+	initVoiceSearch(); // Ініціалізує обробник події для голосового пошуку після завантаження DOM
+    });
 
 
 
