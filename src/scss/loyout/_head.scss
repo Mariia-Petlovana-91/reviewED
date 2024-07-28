@@ -133,3 +133,9 @@ padding: 0px 16px 0 16px;
 .head__singInBtn:focus .head__icon--singUp{
 	fill: var(--bgColor);
 }
+
+.head__photo{
+	width: 46px;
+	height: 46px;
+	border-radius: 50%;
+}
